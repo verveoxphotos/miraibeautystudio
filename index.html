@@ -74,9 +74,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Brand Logo -->
             <a href="#home" onclick="switchTab('home')" class="flex items-center gap-2 group">
-                <span class="text-3xl sm:text-4xl font-serif tracking-wide text-chocolate group-hover:text-gold-accent transition-colors">Mirai</span>
-                <span class="text-xs uppercase tracking-widest text-taupe hidden sm:inline-block border-l border-taupe/40 pl-2">Beauty Studio</span>
-            </a>
+    <img src="assets/logo.png" alt="Mirai Beauty Studio Logo" class="h-10 sm:h-12 object-contain transition-transform group-hover:scale-105" />
+</a>
+
 
             <!-- Desktop Navigation Links -->
             <nav class="hidden md:flex items-center space-x-8">
@@ -170,7 +170,7 @@
                         <div class="lg:col-span-5 relative">
                             <div class="relative mx-auto max-w-md lg:max-w-none">
                                 <div class="absolute -inset-4 rounded-3xl bg-champagne/40 transform rotate-2"></div>
-                                <img src="https://placehold.co/600x750/e8dfd1/2d221e?text=Mirai+Beauty+Studio" alt="Mirai Beauty Studio Editorial" class="relative rounded-2xl object-cover w-full h-[480px] sm:h-[540px] shadow-2xl border border-gold-accent/30" onerror="this.src='https://placehold.co/600x750/e8dfd1/2d221e?text=Mirai+Studio'">
+                                <img src="assets/indoor.png" alt="Mirai Beauty Studio Editorial" class="relative rounded-2xl object-cover w-full h-[480px] sm:h-[540px] shadow-2xl border border-gold-accent/30" onerror="this.src='https://placehold.co/600x750/e8dfd1/2d221e?text=Mirai+Studio'">
                                 <div class="absolute -bottom-6 -left-6 bg-cream p-6 rounded-2xl shadow-xl border border-gold-accent/40 hidden sm:block max-w-xs">
                                     <p class="font-serif italic text-lg text-chocolate">"Join our team and create beauty every day!"</p>
                                     <span class="text-xs uppercase tracking-widest text-gold-accent mt-2 block">— Mirai Beauty Studio</span>
@@ -186,7 +186,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                         <div class="lg:col-span-6 relative">
-                            <img src="https://placehold.co/600x700/d6c7b2/2d221e?text=Salon+Ambiance" alt="Salon Ambiance" class="rounded-2xl object-cover w-full h-[450px] shadow-lg border border-gold-accent/30" onerror="this.src='https://placehold.co/600x700/d6c7b2/2d221e?text=Mirai+Ambiance'">
+                            <img src="assets/indoor2.png" alt="Salon Ambiance" class="rounded-2xl object-cover w-full h-[450px] shadow-lg border border-gold-accent/30" onerror="this.src='https://placehold.co/600x700/d6c7b2/2d221e?text=Mirai+Ambiance'">
                         </div>
                         <div class="lg:col-span-6 space-y-6">
                             <span class="text-xs uppercase tracking-widest text-gold-accent font-semibold">Welcome to Mirai</span>
@@ -226,21 +226,22 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <!-- Category 1 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/e8dfd1/2d221e?text=Facials')"></div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
-                            <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
-                                <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Skincare</span>
-                                <h3 class="text-2xl font-serif mb-2">Facials & Cleanups</h3>
-                                <p class="text-xs text-cream/80 mb-4 line-clamp-2">Refresh, hydrate and rejuvenate your skin with advanced glowing treatments.</p>
-                                <button onclick="switchTab('services')" class="self-start inline-flex items-center gap-2 text-xs uppercase tracking-widest font-medium text-cream group-hover:text-gold-accent transition-colors">
-                                    View Services <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                                </button>
-                            </div>
-                        </div>
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/facials.jpeg')"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
+    <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
+        <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Skincare</span>
+        <h3 class="text-2xl font-serif mb-2">Facials & Cleanups</h3>
+        <p class="text-xs text-cream/80 mb-4 line-clamp-2">Refresh, hydrate and rejuvenate your skin with advanced glowing treatments.</p>
+        <button onclick="switchTab('services')" class="self-start inline-flex items-center gap-2 text-xs uppercase tracking-widest font-medium text-cream group-hover:text-gold-accent transition-colors">
+            View Services <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+    </div>
+</div>
+
 
                         <!-- Category 2 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/d6c7b2/2d221e?text=Hair')"></div>
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/haircare\ and\ color.jpeg')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
                             <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
                                 <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Hair Styling</span>
@@ -254,7 +255,7 @@
 
                         <!-- Category 3 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/c9b8a0/2d221e?text=Nails')"></div>
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/nails.jpeg')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
                             <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
                                 <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Nail Studio</span>
@@ -268,7 +269,7 @@
 
                         <!-- Category 4 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/e8dfd1/2d221e?text=Waxing')"></div>
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/waxing.jpeg')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
                             <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
                                 <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Grooming</span>
@@ -282,7 +283,7 @@
 
                         <!-- Category 5 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/d6c7b2/2d221e?text=Grooming')"></div>
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/grooming.jpeg')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
                             <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
                                 <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Styling</span>
@@ -296,7 +297,7 @@
 
                         <!-- Category 6 -->
                         <div class="group relative rounded-2xl overflow-hidden bg-cream-dark border border-gold-accent/30 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-[400px]">
-                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('https://placehold.co/600x800/c9b8a0/2d221e?text=Spa')"></div>
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-85" style="background-image: url('assets/spa.jpeg')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-chocolate/95 via-chocolate/30 to-transparent"></div>
                             <div class="relative mt-auto p-8 text-cream flex flex-col justify-end h-full">
                                 <span class="text-xs uppercase tracking-widest text-gold-accent mb-2 font-semibold">Relaxation</span>
@@ -369,7 +370,7 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24">
                     <div class="lg:col-span-6 relative">
-                        <img src="https://placehold.co/600x700/e8dfd1/2d221e?text=About+Mirai" alt="Mirai Studio Interior" class="rounded-2xl object-cover w-full h-[500px] shadow-xl border border-gold-accent/40" onerror="this.src='https://placehold.co/600x700/e8dfd1/2d221e?text=Mirai+Interior'">
+                        <img src="assets/mirai.jpeg" alt="Mirai Studio Interior" class="rounded-2xl object-cover w-full h-[500px] shadow-xl border border-gold-accent/40" onerror="this.src='https://placehold.co/600x700/e8dfd1/2d221e?text=Mirai+Interior'">
                     </div>
                     <div class="lg:col-span-6 space-y-6">
                         <h3 class="text-2xl sm:text-3xl font-serif text-chocolate">Crafted for Elegance & Confidence</h3>
@@ -494,37 +495,37 @@
                 <!-- Gallery Masonry Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="hair" onclick="openLightbox('https://placehold.co/800x1000/e8dfd1/2d221e?text=Hair+Styling', 'Professional Hair Styling & Colour')">
-                        <img src="https://placehold.co/600x800/e8dfd1/2d221e?text=Hair+Styling" alt="Hair Styling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/hair2.jpeg" alt="Hair Styling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Hair Styling & Care</span>
                         </div>
                     </div>
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="nails" onclick="openLightbox('https://placehold.co/800x1000/d6c7b2/2d221e?text=Nail+Art', 'Gel Extensions & Nail Art')">
-                        <img src="https://placehold.co/600x800/d6c7b2/2d221e?text=Nail+Art" alt="Nail Art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/nailart.jpeg" alt="Nail Art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Gel Extensions & Nail Art</span>
                         </div>
                     </div>
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="facials" onclick="openLightbox('https://placehold.co/800x1000/c9b8a0/2d221e?text=Hydra+Facial', 'Advanced Hydra Facial')">
-                        <img src="https://placehold.co/600x800/c9b8a0/2d221e?text=Hydra+Facial" alt="Hydra Facial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/hydrafacial.jpeg" alt="Hydra Facial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Advanced Hydra Facial</span>
                         </div>
                     </div>
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="transformations" onclick="openLightbox('https://placehold.co/800x1000/e8dfd1/2d221e?text=Bridal+Glow', 'Royal Bridal Glow')">
-                        <img src="https://placehold.co/600x800/e8dfd1/2d221e?text=Bridal+Glow" alt="Bridal Glow" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/bridal.jpeg" alt="Bridal Glow" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Royal Bridal Glow</span>
                         </div>
                     </div>
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="hair" onclick="openLightbox('https://placehold.co/800x1000/d6c7b2/2d221e?text=Hair+Spa', 'Keratin & Hair Spa')">
-                        <img src="https://placehold.co/600x800/d6c7b2/2d221e?text=Hair+Spa" alt="Hair Spa" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/haiesap.jpeg" alt="Hair Spa" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Keratin & Hair Spa</span>
                         </div>
                     </div>
                     <div class="gallery-item group relative overflow-hidden rounded-2xl bg-cream-dark cursor-pointer h-80 shadow-sm hover:shadow-xl transition-all duration-500 border border-gold-accent/30" data-category="nails" onclick="openLightbox('https://placehold.co/800x1000/c9b8a0/2d221e?text=Luxury+Manicure', 'Luxury Manicure & Pedicure')">
-                        <img src="https://placehold.co/600x800/c9b8a0/2d221e?text=Luxury+Manicure" alt="Luxury Manicure" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <img src="assets/manicure.jpeg" alt="Luxury Manicure" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-chocolate/90 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <span class="text-cream font-serif text-xl">Luxury Manicure & Pedicure</span>
                         </div>
